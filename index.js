@@ -1,5 +1,31 @@
-const LambdaResponseHelper = require('./lib/LambdaResponseHelper');
+const {
+  createSuccessHTTP,
+  createErrorHTTP,
+  MISSING_QUERY_PARAMETERS,
+  MIGGING_PATH_PARAMETERS,
+  MIGGING_PARAMETER,
+  MISSING_BODY,
+  JSON_BODY_ERROR,
+  UNAUTHORIZED,
+  FORBIDDEN,
+  NOT_FOUND,
+  METHOD_NOT_ALLOWED,
+  INTERNAL_SERVER_ERROR,
+  BAD_PARAMETER,
+} = require('./lib/LambdaResponseHelper');
 
 module.exports = {
-  lambdaResponseHelper: LambdaResponseHelper,
+  createSuccessHTTP,
+  createErrorHTTP,
+  MISSING_QUERY_PARAMETERS,
+  MIGGING_PATH_PARAMETERS,
+  MIGGING_PARAMETER,
+  MISSING_BODY,
+  JSON_BODY_ERROR,
+  UNAUTHORIZED,
+  FORBIDDEN,
+  NOT_FOUND,
+  METHOD_NOT_ALLOWED,
+  INTERNAL_SERVER_ERROR,
+  BAD_PARAMETER,
 };
