@@ -1,0 +1,23 @@
+{
+  "name": "@bebusinessfocus/aws-lambda-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/bebusinessfocus"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bebusinessfocus/aws-lambda-helpers.git"
+  },
+  "keywords": [],
+  "author": "Be Business Focus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bebusinessfocus/aws-lambda-helpers/issues"
+  },
+  "homepage": "https://github.com/bebusinessfocus/aws-lambda-helpers#readme"
+}
